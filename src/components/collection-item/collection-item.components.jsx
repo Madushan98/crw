@@ -26,7 +26,7 @@ const CollectionItem = ({ item, addCartItem }) => {
                 <span className='price'>{price}</span>
             </div>
 
-            <CustomButton onClick={() => addCartItem(item)} > Add to Cart </CustomButton>
+            <CustomButton className='custom-button' onClick={() => addCartItem(item)} > Add to Cart </CustomButton>
 
         </div >
 
